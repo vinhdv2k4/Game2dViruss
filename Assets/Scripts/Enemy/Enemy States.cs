@@ -1,21 +1,21 @@
-using HUST;
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
-namespace TV
+
+namespace HUST
 {
     public class EnemyStates : MonoBehaviour
     {
-        protected EnemyStates currentEnemyState;
+        protected EnemyState currentEnemyState;
         public Enemy enemy;
 
         private void Awake()
         {
             enemy = GetComponent<Enemy>();
         }
-        public virtual EnemyStates GetCurrentEnemyState
+
+        public virtual EnemyState GetCurrentEnemyState
         {
-            get { return currentEnemyState; }
+            get => currentEnemyState;
             set
             {
                 if (currentEnemyState != value)
@@ -25,7 +25,8 @@ namespace TV
                 }
             }
         }
-        protected void ChangeState(EnemyStates newState)
+
+        public void ChangeState(EnemyState newState)
         {
             GetCurrentEnemyState = newState;
         }

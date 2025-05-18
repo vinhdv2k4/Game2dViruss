@@ -53,7 +53,12 @@ namespace HUST
         {
             return playerEnemyDistance;
         }
-       
+        public virtual void ResetStats()
+        {
+            health = maxHealth;
+        }
+
+
         public virtual void EnemyGetHit(float damaged, Vector2 hitDirection,float hitforce)
         {
             health -= damaged;
