@@ -917,7 +917,7 @@ MonoBehaviour:
   ledgeCheckY: 1
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 64
 --- !u!114 &1822350354
 MonoBehaviour:
   m_ObjectHideFlags: 0

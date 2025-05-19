@@ -126,6 +126,7 @@ namespace HUST
         {
             base.ChangeCurrentAnimation();
             enemyAnimator.SetBool("isIdle", currentStates.GetCurrentEnemyState == EnemyState.enzyme1_idle);
+
             enemyAnimator.SetBool("isCharge", currentStates.GetCurrentEnemyState == EnemyState.enzyme1_Charge);
             if(currentStates.GetCurrentEnemyState == EnemyState.enzyme1_death)
             {
