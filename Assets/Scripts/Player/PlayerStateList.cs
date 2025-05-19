@@ -8,6 +8,8 @@ namespace HUST
     {
         public bool isJumping = false;
         public bool isDashing = false;
+        public bool alive ;
+        public bool Invincible;
     }
 }
 

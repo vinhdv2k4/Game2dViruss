@@ -35,7 +35,7 @@ namespace HUST
         [SerializeField] private LayerMask WhatIsGround;
         private Rigidbody2D rb;
         private Animator anim;
-        private PlayerStateList pState;
+        public PlayerStateList pState;
 
         private bool canDash = true;
         private bool dashed;
