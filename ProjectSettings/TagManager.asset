@@ -15,7 +15,7 @@ TagManager:
   - UI
   - Enemy
   - Ground
-  - 
+  - Attackable
   - 
   - 
   - 
@@ -42,4 +42,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 829411595
+    locked: 0
+  - name: Player
+    uniqueID: 3095774011
+    locked: 0
+  - name: Midground
+    uniqueID: 670018671
+    locked: 0
+  - name: Foreground
+    uniqueID: 3208135209
+    locked: 0
+  - name: UI
+    uniqueID: 4102012261
     locked: 0
