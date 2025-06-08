@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,6 +17,18 @@ namespace HUST
         [SerializeField] protected float speed;
         [SerializeField] protected float damage;
 
+        protected enum EnemyState
+        {
+            Idle,
+            Moving,
+            Flip,
+            Attacking,
+            Recoiling,
+            Chasing,
+        }
+
+        protected EnemyState currentState ;
+
         protected virtual void Start()
         {
             rb = GetComponent<Rigidbody2D>();
@@ -26,6 +38,7 @@ namespace HUST
         // Update is called once per frame
         protected virtual void Update()
         {
+            UpdateEnemyState();
             if (health <= 0)
             {
                 Destroy(gameObject);
@@ -67,6 +80,15 @@ namespace HUST
         {
             PlayerMovement.Instance.TakeDamage(damage);
         }
+
+        protected virtual void UpdateEnemyState()
+        {
+            
+        }
+
+        protected void ChangeState(EnemyState _newState)
+        {
+            currentState = _newState;
+        }
     }
 }
-

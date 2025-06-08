@@ -16,8 +16,8 @@ TagManager:
   - Enemy
   - Ground
   - Attackable
-  - 
-  - 
+  - Ignore Player
+  - Trap
   - 
   - 
   - 

@@ -119,6 +119,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -126,10 +139,10 @@ TextureImporter:
       name: Mushroom-Attack_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 25
         y: 0
-        width: 80
-        height: 64
+        width: 30
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +160,10 @@ TextureImporter:
       name: Mushroom-Attack_1
       rect:
         serializedVersion: 2
-        x: 80
+        x: 116
         y: 0
-        width: 80
-        height: 64
+        width: 29
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +181,10 @@ TextureImporter:
       name: Mushroom-Attack_2
       rect:
         serializedVersion: 2
-        x: 160
+        x: 200
         y: 0
-        width: 80
-        height: 64
+        width: 34
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,10 +202,10 @@ TextureImporter:
       name: Mushroom-Attack_3
       rect:
         serializedVersion: 2
-        x: 240
+        x: 280
         y: 0
-        width: 80
-        height: 64
+        width: 34
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +223,10 @@ TextureImporter:
       name: Mushroom-Attack_4
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
-        width: 80
-        height: 64
+        x: 340
+        y: 2
+        width: 28
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +244,10 @@ TextureImporter:
       name: Mushroom-Attack_5
       rect:
         serializedVersion: 2
-        x: 400
+        x: 405
         y: 0
-        width: 80
-        height: 64
+        width: 32
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,10 +265,10 @@ TextureImporter:
       name: Mushroom-Attack_6
       rect:
         serializedVersion: 2
-        x: 480
+        x: 484
         y: 0
-        width: 80
-        height: 64
+        width: 32
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,10 +286,10 @@ TextureImporter:
       name: Mushroom-Attack_7
       rect:
         serializedVersion: 2
-        x: 560
+        x: 563
         y: 0
-        width: 80
-        height: 64
+        width: 32
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +307,10 @@ TextureImporter:
       name: Mushroom-Attack_8
       rect:
         serializedVersion: 2
-        x: 640
-        y: 0
-        width: 80
-        height: 64
+        x: 654
+        y: 3
+        width: 31
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,10 +328,10 @@ TextureImporter:
       name: Mushroom-Attack_9
       rect:
         serializedVersion: 2
-        x: 720
+        x: 745
         y: 0
-        width: 80
-        height: 64
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
